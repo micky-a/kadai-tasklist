@@ -1,5 +1,5 @@
 <h1>買うもの詳細</h1>
-<p><%= @task.content %></p>
+<p><%= @task.content %> : <%= @task.status %></p>
 
 <%= link_to '一覧へ戻る', tasks_path %>
 <%= link_to '編集する', edit_task_path(@task) %>
